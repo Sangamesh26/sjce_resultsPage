@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>JSSTU Result</title>
+  <link rel="shortcut icon" href="22.jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<style type="text/css">
+  body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+  background: rgb(26, 188, 156);
+  background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+  background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #eeeeee;
+}
+
+p {
+  font-size: 12px;
+  font-weight: light;
+  color: #333333;
+}
+
+span a {
+  font-size: 18px;
+  color: #cccccc;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 5px white solid;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  img { width: 100%; height: auto; }
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+input[type=submit]{
+
+    
+   
+  border: none;
+  color:white;
+  }
+
+  
+input[type=text] {display:block; 
+padding:5px; 
+border:2px solid #ccc;
+-webkit-border-radius: 5px; 
+margin-right:auto; 
+margin-left:auto;
+border-radius: 5px;
+}
+.button2 {
+  border-radius: 4px;
+    background:linear-gradient(to bottom right,rgba(131, 96, 195, 1) 0%, rgba(46, 191, 145, 1)80%);
+            box-shadow: 0px 10px 20px -8px rgba(0,0,0 ,.7);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 10px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Open Sans', Arial, Helvetica Neue, sans-serif;
+font-weight:300;
+line-height: 1.2;
+    letter-spacing: 1px;
+  
+}
+
+.button2{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button2:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;  
+  top: 6px;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.button2:hover{
+  padding-right: 14px;
+  padding-left:0px;
+}
+
+.button2:hover:after {
+  opacity: 1;
+  right: 40px;
+}
+
+marquee { background: rgb(26, 188, 156); }
+
+.rightTI { background: #ff002b;
+  white-space: nowrap; 
+  overflow: hidden;
+  animation: marquee 18s linear infinite;
+}
+.rightTI:hover {
+  animation-play-state: paused;
+}
+@-webkit-keyframes marquee {
+  0% {text-indent: 100%;}
+  100% {text-indent: -100%;}
+}
+
+.rightCSS { 
+  background: #a35dc1;
+  overflow: hidden;
+} 
+.rightCSS div {
+  position: relative;
+  animation: CSSright linear 18s infinite;
+} 
+@keyframes CSSright {
+  0% { right: -100% }
+  100% { right: 100% }
+}
+.rightCSS:hover div {
+  animation-play-state: paused;
+}
+
+.rightJS { background: #ffa900; }
+
+.rightJQ { background: #00a753; }
+
+.li {
+  float: left;
+  width: 80%;
+  padding: 1%;
+  margin: 1% 10%;
+  height: 20px;
+  border-radius: 0.5em;
+  box-shadow: 0 0.1em 0.5em;
+}
+#DOB{
+margin-top:5px;
+}
+</style>
+
+
+
+
+
+</head>
+
+<body>
+
+<div class="result" align="center">
+
+
+<a href="http://jssstuniv.in/" target="_blank"><img src="logo.jpeg" alt="JSSSTU" height="110"></a>
+
+<br><br>
+<div class="w3-container">
+<h1 class="w3-center w3-animate-right" style='font-family:calibri'> WELCOME TO JSSS&amp;TU RESULTS PAGE</h1>
+</div>
+<br>
+<div>
+  <marquee class="li" direction=”right” onmouseover="stop()" onmouseout="start()">||Provisional results of M.Tech CIS and ENV(Including Repeaters)  ANNOUNCED.|| </marquee>
+</div>
+<br><br>
+<form action="check.php" method="post" >
+    <input id="USN" name="USN" type="text" required autofocus placeholder="Enter Valid USN" onkey>
+	<input id="DOB" name="DOB" type="text" required autofocus placeholder="DOB(yyyy-mm-dd)" onkey>
+<br>
+<input type="submit" class="button2" name="results" value="fetch results"></form>
+<br>
+
+   <!--  <a href="/team.html" target="_blank"><button class="button2">Report bugs</button></a> -->
+<br/>
+<br/>
+<span style="color:white;">&copy; JSS S&TU, 2019</span>
+</div>
+
+<script>
+function validateForm() {
+  var x = document.forms["USN"]["USN"].value;
+
+  if (x.length < 3 || x.length > 4) {
+    alert("Enter proper USN, \"" + x + "\" is not valid");
+    return false;
+  }
+}
+</script>
+</body>
+</html>
